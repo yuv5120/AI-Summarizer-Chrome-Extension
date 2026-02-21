@@ -1,0 +1,18 @@
+# Build directories
+frontend/dist/
+backend/bin/
+backend/obj/
+tests/bin/
+tests/obj/
+
+# Node dependencies
+frontend/node_modules/
+.angular/
+
+# Environment files
+.env
+appsettings.Development.json
+
+# OS files
+.DS_Store
+Thumbs.db
