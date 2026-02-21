@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AISummarizer.Backend", "AISummarizer.Backend.csproj", "{4DACB0F8-D4B1-427C-803D-0A40C0AD01F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AISummarizer.Tests", "..\tests\AISummarizer.Tests.csproj", "{A944F8DF-D23B-49BA-81D6-7EBCAAE96D84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DACB0F8-D4B1-427C-803D-0A40C0AD01F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DACB0F8-D4B1-427C-803D-0A40C0AD01F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DACB0F8-D4B1-427C-803D-0A40C0AD01F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DACB0F8-D4B1-427C-803D-0A40C0AD01F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A944F8DF-D23B-49BA-81D6-7EBCAAE96D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A944F8DF-D23B-49BA-81D6-7EBCAAE96D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A944F8DF-D23B-49BA-81D6-7EBCAAE96D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A944F8DF-D23B-49BA-81D6-7EBCAAE96D84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

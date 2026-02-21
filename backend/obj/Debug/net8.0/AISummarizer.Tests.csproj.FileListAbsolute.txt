@@ -1,0 +1,6 @@
+/Users/yuvraj/.gemini/antigravity/scratch/ai-summarizer/backend/bin/Debug/net8.0/CoverletSourceRootsMapping_AISummarizer.Tests
+/Users/yuvraj/.gemini/antigravity/scratch/ai-summarizer/backend/obj/Debug/net8.0/AISummarizer.Tests.csproj.AssemblyReference.cache
+/Users/yuvraj/.gemini/antigravity/scratch/ai-summarizer/backend/obj/Debug/net8.0/AISummarizer.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yuvraj/.gemini/antigravity/scratch/ai-summarizer/backend/obj/Debug/net8.0/AISummarizer.Tests.AssemblyInfoInputs.cache
+/Users/yuvraj/.gemini/antigravity/scratch/ai-summarizer/backend/obj/Debug/net8.0/AISummarizer.Tests.AssemblyInfo.cs
+/Users/yuvraj/.gemini/antigravity/scratch/ai-summarizer/backend/obj/Debug/net8.0/AISummarizer.Tests.csproj.CoreCompileInputs.cache

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "mw1B7piEKlYaScpsyFq1sq654mgqDFtt1adQucCRysE=",
+  "Source": "AISummarizer.Backend",
+  "BasePath": "_content/AISummarizer.Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

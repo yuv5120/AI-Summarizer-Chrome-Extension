@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "AI Summarizer",
+    "version": "1.0",
+    "description": "Summarize any webpage or PDF seamlessly.",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "AI Summarizer"
+    },
+    "permissions": [
+        "activeTab",
+        "storage",
+        "scripting"
+    ],
+    "host_permissions": [
+        "http://localhost:5033/*",
+        "https://localhost:7112/*"
+    ]
+}

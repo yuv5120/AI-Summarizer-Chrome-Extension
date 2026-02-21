@@ -1,0 +1,51 @@
+<main class="app-container">
+  <header>
+    <div class="logo">✨ AI Summarizer</div>
+    <div class="subtitle">Extract knowledge instantly.</div>
+  </header>
+
+  <section class="controls">
+    <div class="input-group">
+      <label for="summaryType">Format</label>
+      <select id="summaryType" (change)="onSummaryTypeChange($event)">
+        <option value="Short">📝 Brief Summary</option>
+        <option value="KeyPoints">📌 Key Points</option>
+        <option value="Flashcards">🃏 Flashcards</option>
+      </select>
+    </div>
+
+    <div class="actions">
+      <button class="btn primary glass" (click)="summarizeCurrentPage()" [disabled]="isLoading">
+        <span *ngIf="!isLoading">🌐 Summarize Page</span>
+        <span *ngIf="isLoading" class="loader"></span>
+      </button>
+
+      <div class="upload-wrapper glass">
+        <input type="file" id="pdfUpload" accept=".pdf" (change)="onFileSelected($event)" [disabled]="isLoading" />
+        <label for="pdfUpload" class="btn secondary">
+          📂 Upload PDF
+        </label>
+      </div>
+    </div>
+  </section>
+
+  <section class="output" *ngIf="summaryResult">
+    <div class="output-header">
+      <h3>Results</h3>
+      <button class="icon-btn" (click)="copyToClipboard()" title="Copy to Clipboard">📋</button>
+    </div>
+
+    <div class="content glass-panel">
+      <p *ngIf="summaryType !== 'Flashcards'">{{summaryResult}}</p>
+
+      <!-- Flashcard layout -->
+      <div class="flashcards" *ngIf="summaryType === 'Flashcards'">
+        <pre>{{summaryResult}}</pre> <!-- Fallback for mock formatting -->
+      </div>
+    </div>
+  </section>
+
+  <div class="status-msg" *ngIf="statusMessage" [class.error]="isError">
+    {{ statusMessage }}
+  </div>
+</main>
